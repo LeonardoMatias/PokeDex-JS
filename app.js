@@ -1,4 +1,4 @@
-// API para pegar os dados dos pokemons da primeira geração
+// API para pegar os dados dos pokemons
 const getPokemonUrl = id => `https://pokeapi.co/api/v2/pokemon/${id}`
 
 const generatePokemonPromises = () => Array(898).fill().map((_, index) =>
